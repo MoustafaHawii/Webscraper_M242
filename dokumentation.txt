@@ -1,8 +1,0 @@
-Digitec: funktioniert (gibt Preis und Timestamp aus)
-MobileZone: funktioniert (gibt Preis und Timestamp aus)
-Apple Website: schwierig machbar, benötige ajax-url 
-Microspot: schwierig machbar, benötige ajax-url 
-MediaMarkt: funktioniert (gibt Preis und Timestamp aus)
-dqSolution: funktioniert (gibt Preis und Timestamp aus)
-m-electronics: gibt den flaschen Preis aus, weil der code einfach ass ist
-computerli.ch: funktioniert (gibt Preis und Timestamp aus)
