@@ -5,10 +5,14 @@ from dqSolution import scrape as scrapeDQS
 from interdiscount import scrape as scrapeInterdiscount
 from computerli import scrape as scrapeComputerli
 
-if __name__ == "__main__":
+
+def main_def():
     scrapeDigi()
     scrapeMobileZone()
     scrapeMediaMarkt()
     scrapeDQS()
     scrapeInterdiscount()
     scrapeComputerli()
+
+if __name__ == "__main__":
+    main()

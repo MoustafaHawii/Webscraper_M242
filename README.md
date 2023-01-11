@@ -38,4 +38,4 @@ In "main.py" werden von allen shops die Preise und Zeit geholt, durch diese Stru
 
 **Execute**
 
-In "execute.py" läuft ein Script welches alle 24h "main.py" ausführt.
+In "execute.py" läuft ein Script welches alle 24h "main.py" ausführt. Ursprünglich wollte ich das Script auf meinem Raspberry Pi, mit Hilfe von Cron Job ausführen, da mein Raspberry Pi aber aus unerklärlichen Gründen kein Betriebssystem einlesen kann, muss ich auf dieses Pythonscript greifen.
