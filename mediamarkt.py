@@ -14,6 +14,7 @@ def scrape():
 
     print(price_element.text)
     print(date_time)
+    print("mediamarkt")
 
 if __name__ == '__main__':
     scrape()

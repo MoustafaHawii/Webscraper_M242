@@ -14,6 +14,7 @@ def scrape():
 
     print(prise_element.text)
     print(date_time)
+    print("mobileZone")
 
 if __name__ == '__main__':
     scrape()
