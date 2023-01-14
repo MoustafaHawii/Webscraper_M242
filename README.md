@@ -51,3 +51,7 @@ Die connect() Funktion öffnet eine Verbindung zu einer SQLite-Datenbank. Sie gi
 Falls ein Fehler auftritt, fangen wir ihn innerhalb des try except Blocks ab und zeigen die Fehlermeldung an. Wenn alles in Ordnung ist, zeigen wir die Version der SQLite-Datenbank an.
 
 Zweitens übergeben wir den Pfad der Datenbankdatei an die Funktion create_connection(), um die Datenbank zu erstellen. Beachten Sie, dass das Präfix r in r "C:\sqlite\db\pythonsqlite.db" Python anweist, dass wir eine rohe Zeichenkette übergeben.
+
+**insertSQlite.py**
+
+Ich dachte ich könnte über diese Klasse die Werte aus dem Scraper in die Datenbank speichern, jedoch habe ich in folgenden Tutorial "https://www.youtube.com/watch?v=xBbK2kvHXwE" herausgefunden, dass ich das in den entsprechenden Scraper machen kann.
