@@ -28,13 +28,12 @@ def create_table(conn, create_table_sql):
         print(e)
     
 def main():
-    database = r"C:\Users\svenh\OneDrive - Bildungszentrum Zürichsee\BZZ\Maurizi\Modul242\WebScrap\database_webscrape.db"
+    database = r"database.db"
 
     sql_create_main_table = """ CREATE TABLE IF NOT EXISTS projects (
-                                        id integer PRIMARY KEY,
-                                        store text,
-                                        datetime text,
-                                        price text
+                                        store TEXT,
+                                        datetime DATETIME,
+                                        price REAL
                                     ); """
                                     
     conn = create_connection(database)
