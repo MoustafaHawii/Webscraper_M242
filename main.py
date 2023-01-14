@@ -15,4 +15,4 @@ def main_def():
     scrapeComputerli()
 
 if __name__ == "__main__":
-    main()
+    main_def()

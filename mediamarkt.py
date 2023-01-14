@@ -1,6 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 import datetime 
+import sqlite3
+
+conn = sqlite3.connect('database.db')
+c = conn.cursor()
 
 def scrape():
     URL = "https://www.mediamarkt.ch/de/product/_apple-iphone-14-pro-2151070.html"
@@ -10,11 +14,16 @@ def scrape():
     result = soup.find
 
     price_element = result("span", class_ = "product-attributes__item-text")
+    price = price_element.text
     date_time = datetime.datetime.now()
+    name = "mediamarkt"
 
-    print(price_element.text)
+    print(price)
     print(date_time)
-    print("mediamarkt")
+    print(name)
+
+    c.execute('''INSERT INTO projects VALUES(?,?,?)''',(name, date_time,price))
+    conn.commit()
 
 if __name__ == '__main__':
     scrape()
