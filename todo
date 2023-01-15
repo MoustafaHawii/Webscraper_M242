@@ -1,9 +1,16 @@
--computerli.py insert einfügen @done 
--digitec.py insert einfügen @done
--dqSolution.py insert einfügen @done
--interdiscount.py insert einfügen @done
--mediamarkt.py insert einfügen @done
--melectro.py insert einfügen @done
--mobileZone.py insert einfügen @done
--vereinheitlichen der Prise
--alles auf Englisch und Grammatik korrigieren
+-vereinheitlichen der Preise (Fragen wie?)
+-Sprache vereinheitlichen
+    -computerli.py @done
+    -database.py @done
+    -digitec.py @done
+    -dqSolution.py @done 
+    -execute.py @done
+    -insertSQLite.py @done
+    -interdiscount.py @done
+    -main.py @done
+    -mediamarkt.py @done
+    -melectro.py @done 
+    -mobileZone.py @done 
+-ReadMe?
+    -Herausfinden was ins ReadMe reingehört
+    -ReadMe überarbeiten

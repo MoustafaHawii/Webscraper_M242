@@ -3,7 +3,7 @@ import time
 from main import main_def as main_def
 
 def job():
-    print("funktioniert")
+    print("works")
     main_def()
 
 #schedule.every().day.at("13:53").do(job)
