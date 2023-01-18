@@ -29,7 +29,7 @@ def scrape():
     print(date_time)
     print(name)
 
-    c.execute('''INSERT INTO projects VALUES(?,?,?)''',(name, date_time,price))
+    c.execute('''INSERT INTO projects VALUES(?,?,?)''',(name, date_time,price3))
     conn.commit()
 
 if __name__ == '__main__':
