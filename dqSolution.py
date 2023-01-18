@@ -4,7 +4,7 @@ import datetime
 import sqlite3
 
 conn = sqlite3.connect('database.db')
-c = conn.cursor()
+c = conn.cursor() 
 
 def scrape():
     URL = "https://store.dq-solutions.ch/de/apple-iphone-14-pro-1-tb-dunkellila-2022-ci0535?m=1665"
