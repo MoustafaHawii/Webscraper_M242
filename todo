@@ -1,16 +1,13 @@
--vereinheitlichen der Preise (Fragen wie?)
--Sprache vereinheitlichen
-    -computerli.py @done
-    -database.py @done
-    -digitec.py @done
-    -dqSolution.py @done 
-    -execute.py @done
-    -insertSQLite.py @done
-    -interdiscount.py @done
-    -main.py @done
-    -mediamarkt.py @done
-    -melectro.py @done 
-    -mobileZone.py @done 
+-vereinheitlichen der Preise mit regex
+    - computerli.py @done
+    - digitec.py @done 
+    - dqSolution.py @done
+    - interdiscount.py @done
+    - mediamarkt.py @done
+    - melectro.py @done
+    - mobileZone.py @done
+
 -ReadMe?
     -Herausfinden was ins ReadMe reingehört
     -ReadMe überarbeiten
+-flask python

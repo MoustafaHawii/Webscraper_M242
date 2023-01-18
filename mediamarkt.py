@@ -18,7 +18,13 @@ def scrape():
     date_time = datetime.datetime.now()
     name = "mediamarkt"
 
-    print(price)
+    price1 = price.replace("CHF", "")
+    price2 = price1.replace(".-", "")
+    price3 = price2.replace("'", "")
+
+    price3 = float(price3)
+
+    print(price3)
     print(date_time)
     print(name)
 

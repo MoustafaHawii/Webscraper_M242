@@ -33,7 +33,7 @@ def main():
     sql_create_main_table = """ CREATE TABLE IF NOT EXISTS projects (
                                         store TEXT,
                                         datetime DATETIME,
-                                        price REAL
+                                        price FLOAT
                                     ); """
                                     
     conn = create_connection(database)
