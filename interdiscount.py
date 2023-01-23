@@ -16,6 +16,7 @@ def scrape():
     price_element = result("div", class_ = "_3H04_H")
     price = price_element.text
     date_time = datetime.datetime.now()
+    date_time = date_time.replace(microsecond=0)
     name = "interdiscount"
 
     price1 = price.replace("CHF", "")

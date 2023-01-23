@@ -16,6 +16,7 @@ def scrape():
     price_element = result("span", class_ = "price")
     price = price_element.text
     date_time = datetime.datetime.now()
+    date_time = date_time.replace(microsecond=0)
     name = "computerli"
 
     price1 = price.replace("CHF", "")

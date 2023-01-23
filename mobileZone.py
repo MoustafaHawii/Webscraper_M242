@@ -16,6 +16,7 @@ def scrape():
     price_element = result("span", class_ = "mz-m-product-buy-box__wrapper__buy-box-inner__price-label")
     price = price_element.text 
     date_time = datetime.datetime.now()
+    date_time = date_time.replace(microsecond=0)
     name = "mobileZone"
 
     price1 = price.replace("CHF", "")
